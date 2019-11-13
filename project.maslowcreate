@@ -22,15 +22,15 @@
                         },
                         {
                             "name": "diameter",
-                            "ioValue": 11
+                            "ioValue": 13
                         }
                     ]
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 141,
-                    "y": 245,
+                    "x": 96,
+                    "y": 257,
                     "uniqueID": 336785,
                     "ioValues": [
                         {
