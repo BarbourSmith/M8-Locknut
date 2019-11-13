@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|M8 Locknut|1|$0.10|https://www.mcmaster.com/90576a117|
+|Total: |1|$0.10| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $0.31

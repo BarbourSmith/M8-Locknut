@@ -27,10 +27,31 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 141,
+                    "y": 245,
+                    "uniqueID": 336785,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 304,
+                    "y": 200,
+                    "uniqueID": 943186,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 329,
-                    "y": 125,
+                    "x": 641,
+                    "y": 176,
                     "uniqueID": 797325,
                     "ioValues": [
                         {
@@ -38,6 +59,21 @@
                             "ioValue": 8
                         }
                     ]
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 938,
+                    "y": 175,
+                    "uniqueID": 202070,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "M8 Locknut",
+                        "numberNeeded": 1,
+                        "costUSD": 0.1045,
+                        "source": "https://www.mcmaster.com/90576a117",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -50,9 +86,32 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "geometry1",
                     "ap1ID": 412758,
+                    "ap2ID": 943186
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 336785,
+                    "ap2ID": 943186
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 943186,
                     "ap2ID": 797325
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 797325,
+                    "ap2ID": 202070
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 202070
                 }
             ],
             "fileTypeVersion": 1
