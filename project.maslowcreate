@@ -10,6 +10,36 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 110,
+                    "y": 112,
+                    "uniqueID": 412758,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 11
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 329,
+                    "y": 125,
+                    "uniqueID": 797325,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -17,7 +47,14 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 412758,
+                    "ap2ID": 797325
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
